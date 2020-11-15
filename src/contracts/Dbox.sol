@@ -1,8 +1,12 @@
 pragma solidity ^0.5.0;
 
-contract DStorage {
+contract dbox {
   // Name
+  string public name = "dbox"
+
   // Number of files
+  
+
   // Mapping fileId=>Struct 
 
   // Struct
