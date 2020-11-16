@@ -1,4 +1,4 @@
-//import DStorage from '../abis/DStorage.json'
+//import DBox from '../abis/DBox.json'
 import React, { Component } from 'react';
 import Navbar from './Navbar'
 import Main from './Main'
@@ -26,14 +26,14 @@ class App extends Component {
     //Network ID
 
     //IF got connection, get data from contracts
-      //Assign contract
+    //Assign contract
 
-      //Get files amount
+    //Get files amount
 
-      //Load files&sort by the newest
+    //Load files&sort by the newest
 
     //Else
-      //alert Error
+    //alert Error
 
   }
 
@@ -47,14 +47,14 @@ class App extends Component {
 
     //Add file to the IPFS
 
-      //Check If error
-        //Return error
+    //Check If error
+    //Return error
 
-      //Set state to loading
+    //Set state to loading
 
-      //Assign value for the file without extension
+    //Assign value for the file without extension
 
-      //Call smart contract uploadFile function 
+    //Call smart contract uploadFile function 
 
   }
 
@@ -74,10 +74,10 @@ class App extends Component {
         { this.state.loading
           ? <div id="loader" className="text-center mt-5"><p>Loading...</p></div>
           : <Main
-              files={this.state.files}
-              captureFile={this.captureFile}
-              uploadFile={this.uploadFile}
-            />
+            files={this.state.files}
+            captureFile={this.captureFile}
+            uploadFile={this.uploadFile}
+          />
         }
       </div>
     );

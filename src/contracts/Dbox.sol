@@ -1,8 +1,8 @@
 pragma solidity ^0.5.0;
 
-contract dbox {
+contract Dbox {
   // Name
-  string public name = "dbox"
+  string public name = "Dbox";
 
   // Number of files
   
@@ -15,6 +15,7 @@ contract dbox {
   // Event
 
   constructor() public {
+
   }
 
   // Upload File function
